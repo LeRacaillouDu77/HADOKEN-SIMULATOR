@@ -114,6 +114,7 @@ void challenges(menu_t *m, button_struct *button, sfColor color, int defi_number
     if (m->is_visible == sfFalse) {
         if (is_button_clicked(button, m) == sfTrue) {
             // lancer le défi ici
+            sfMusic_stop(m->music);
             sfRenderWindow_close(m->window);
             start_game(defi_number);
         } else if (is_hooved(button, m) == sfTrue) {
