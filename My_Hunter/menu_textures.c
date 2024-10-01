@@ -32,7 +32,7 @@ void logo(sfRenderWindow *menu)
     sfTexture *texture = sfTexture_createFromFile(
     "./ressources/images/logo.png", NULL);
     sfSprite *sprite = sfSprite_create();
-    sfVector2f pos = {600, 50};
+    sfVector2f pos = {630, 50};
     sfVector2f scale = {1.10, 1.10};
 
     sfSprite_setTexture(sprite, texture, sfTrue);
@@ -48,8 +48,8 @@ void buttons(sfRenderWindow *menu)
     sfTexture *texture = sfTexture_createFromFile(
     "./ressources/images/buttons.png", NULL);
     sfSprite *sprite = sfSprite_create();
-    sfVector2f pos = {800, 600};
-    sfVector2f scale = {0.5, 0.5};
+    sfVector2f pos = {1920 / 2 - 500 * 0.7, 650};
+    sfVector2f scale = {0.7, 0.7};
 
     sfSprite_setTexture(sprite, texture, sfTrue);
     sfSprite_setScale(sprite, scale);
