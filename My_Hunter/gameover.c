@@ -43,6 +43,7 @@ void retry(mgst *m, button_struct *button, sfColor color)
     if (m->is_gameover == sfTrue) {
         if (is_button_clicked_go(button, m) == sfTrue) {
             m->is_gameover = sfFalse;
+            sfMusic_stop(m->music);
             sfRenderWindow_close(m->game_window);
             start_game(0);
         } else if (is_hooved_go(button, m) == sfTrue) {
