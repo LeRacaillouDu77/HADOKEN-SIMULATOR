@@ -92,4 +92,4 @@ Copyright (c) 2025 LeRacaillouDu77
 LeRacaillouDu77
 🔗 GitHub : https://github.com/LeRacaillouDu77
 
-<p align="center"> ✨ *Hadoken Simulator ✨ </p> ```
+<p align="center"> ✨ *Hadoken Simulator ✨ </p> 
