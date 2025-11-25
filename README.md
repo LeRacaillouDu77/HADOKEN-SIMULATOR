@@ -35,14 +35,14 @@ Le but : **réagir rapidement**, lancer des *Hadoken* et interagir avec les él�
 
 ## 📂 Structure du projet
 
-HADOKEN-SIMULATOR/
-├── CSFML-2.5.1-sources/ # Sources de CSFML
-├── source/ # Code du jeu
-│ ├── main.c
-│ ├── ...
-| ├── ressources/
-| ├── highscore/
-└── README.md
+HADOKEN-SIMULATOR/  
+├── CSFML-2.5.1-sources/ # Sources de CSFML  
+├── source/ # Code du jeu  
+│ ├── main.c  
+│ ├── ...  
+| ├── ressources/  
+| ├── highscore/  
+└── README.md  
 
 ---
 
