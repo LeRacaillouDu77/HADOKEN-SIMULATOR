@@ -40,7 +40,8 @@ HADOKEN-SIMULATOR/
 ├── source/ # Code du jeu
 │ ├── main.c
 │ ├── ...
-| ├── assets/
+| ├── ressources/
+| ├── highscore/
 └── README.md
 
 ---
